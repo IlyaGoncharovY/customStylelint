@@ -1,0 +1,31 @@
+{
+  "name": "@ilya_goncharov_y/custom-stylelint",
+  "version": "1.0.0",
+  "description": "Custom Stylelint configuration for CSS and SCSS",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": {
+      "import": "./index.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:css": "stylelint '**/*.{css,scss}'"
+  },
+  "keywords": [
+    "stylelint",
+    "css",
+    "scss",
+    "lint"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "stylelint": "^16.11.0",
+    "stylelint-config-standard": "^36.0.1",
+    "stylelint-config-standard-scss": "^14.0.0",
+    "stylelint-order": "^6.0.4",
+    "stylelint-scss": "^6.10.0"
+  }
+}
