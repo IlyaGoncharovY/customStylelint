@@ -27,6 +27,15 @@ export default {
                 ],
             },
             {
+                properties: [
+                    'display', 'grid', 'grid-template-rows', 'grid-template-columns',
+                    'grid-template-areas', 'grid-auto-rows', 'grid-auto-columns',
+                    'grid-auto-flow', 'grid-gap', 'gap', 'row-gap', 'column-gap',
+                    'justify-items', 'align-items', 'place-items',
+                    'justify-self', 'align-self', 'place-self',
+                ],
+            },
+            {
                 properties: ['width', 'height', 'min-width', 'min-height', 'max-width', 'max-height'],
             },
             {
