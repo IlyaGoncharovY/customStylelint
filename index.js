@@ -8,8 +8,6 @@ export default {
         'stylelint-order',
     ],
     rules: {
-        'indentation': 2,
-        'string-quotes': 'single',
         'color-hex-length': 'short',
         'block-no-empty': true,
         'selector-class-pattern': '^([a-z][a-z0-9]*)(-[a-z0-9]+)*$',
@@ -22,7 +20,6 @@ export default {
             'grid-gap', 'gap', 'width', 'height', 'color', 'background-color', 'background', 'background-image',
             'background-position', 'background-size'
         ],
-        'alphabetical': true,
-        'fix': true,
+        "order/properties-alphabetical-order": true
     },
 };
