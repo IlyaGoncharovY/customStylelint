@@ -54,7 +54,7 @@ yarn add @ilya_goncharov_y/custom-stylelint --save-dev
 ### 2) Настройте ESLint в проекте: Создайте файл .stylelintrc.js в корне проекта:
 
 ```js
-import styleLintConfig from '@ilya_goncharov_y/customstylelint';
+import styleLintConfig from '@ilya_goncharov_y/custom-stylelint';
 
 export default styleLintConfig;
 ```

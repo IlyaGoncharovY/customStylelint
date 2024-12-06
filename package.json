@@ -1,6 +1,6 @@
 {
   "name": "@ilya_goncharov_y/custom-stylelint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Custom Stylelint configuration for CSS and SCSS",
   "type": "module",
   "main": "index.js",
