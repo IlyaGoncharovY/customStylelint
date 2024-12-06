@@ -18,8 +18,8 @@ export default {
             'justify-content', 'align-items', 'align-self', 'order',
             'grid', 'grid-template-rows', 'grid-template-columns', 'grid-template-areas',
             'grid-gap', 'gap', 'width', 'height', 'color', 'background-color', 'background', 'background-image',
-            'background-position', 'background-size'
+            'background-position', 'background-size',
+            'alphabetical',
         ],
-        "order/properties-alphabetical-order": true
     },
 };
