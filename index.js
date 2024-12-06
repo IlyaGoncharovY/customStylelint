@@ -22,5 +22,7 @@ export default {
             'grid-gap', 'gap', 'width', 'height', 'color', 'background-color', 'background', 'background-image',
             'background-position', 'background-size'
         ],
+        'alphabetical': true,
+        'fix': true,
     },
 };
